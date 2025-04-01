@@ -89,6 +89,10 @@ static void v4l2_set_src_and_dest_format(int index,
 static pthread_mutex_t v4l2_open_mutex = PTHREAD_MUTEX_INITIALIZER;
 static struct v4l2_dev_info devices[V4L2_MAX_DEVICES] = {
 	{ .fd = -1 },
+	{ .fd = -1 },
+	{ .fd = -1 }, { .fd = -1 }, { .fd = -1 }, { .fd = -1 }, { .fd = -1 },
+	{ .fd = -1 }, { .fd = -1 }, { .fd = -1 }, { .fd = -1 }, { .fd = -1 },
+	{ .fd = -1 }, { .fd = -1 }, { .fd = -1 }, { .fd = -1 }, { .fd = -1 },
 	{ .fd = -1 }, { .fd = -1 }, { .fd = -1 }, { .fd = -1 }, { .fd = -1 },
 	{ .fd = -1 }, { .fd = -1 }, { .fd = -1 }, { .fd = -1 }, { .fd = -1 },
 	{ .fd = -1 }, { .fd = -1 }, { .fd = -1 }, { .fd = -1 }, { .fd = -1 }
