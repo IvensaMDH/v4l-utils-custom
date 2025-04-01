@@ -25,7 +25,7 @@
 
 #include "../libv4lconvert/libv4lsyscall-priv.h"
 
-#define V4L2_MAX_DEVICES 16
+#define V4L2_MAX_DEVICES 32
 /* Warning when making this larger the frame_queued and frame_mapped members of
    the v4l2_dev_info struct can no longer be a bitfield, so the code needs to
    be adjusted! */
